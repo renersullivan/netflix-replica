@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 1281px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background: url('../assets/images/fundo3-netflix.png');
+    background-color: black;
+    background-size: cover;
+}
+.barra-menu{
+    display: flex;
+
+    width: 100%;
+    height: auto;
+    flex-direction:row;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(6px);
+    justify-content: space-around;
+}
+.icon-netflix{
+    width: 165px;
+    height: 60px;
+    color: red;
+}
+.box-menu{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    padding: 10px;
+    width: 157px;
+    border-radius: 12px;
+    height: 40px;
+    outline: none;
+    background: transparent;
+    color: white;
+    margin-right: 30px;
+}
+option{
+    color: black;
+}
+.btn-entrar{
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    background: 1px solid red;
+    background-color: red;
+    width: 98px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 2s;    border-radius: 12px;
+ 
+}
+.btn-entrar :hover{
+    color: black;
+    transition: 2s;
+
+}
+.texto-filmes{
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+
+}
+.texto1 p{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+.texto2 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 16px;
+
+}
+.texto3 p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+.input-email{
+    display: flex;
+    margin-top: 30px;
+}
+.input-email input{
+    width: 300px;
+    height: 49px;
+    border-radius: 12px;
+    background:transparent;
+    backdrop-filter: blur(8px);
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background: #25242480;
+}
+.brn-vamosla{
+    display: flex;
+    align-items: center;
+    background: red;
+    color: white;
+    width: 128px;
+    justify-content: center;
+    border-radius: 12px;
+    margin-left: 15px;
+}
+.brn-vamosla p{
+    margin: 0;
+    font-size: 25px;
+   
+    
+}
+
+
+@media only screen and (min-width: 600px) {
+    .texto-filmes{
+        padding: 20px;
+    }
+    
+
+}
