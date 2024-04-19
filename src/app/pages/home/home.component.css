@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     display: flex;
     justify-content: center;
-    background: url('../assets/images/fundo3-netflix.png');
+    background-image: url('src/assets/images/fundo3-netflix.png');
     background-color: black;
     background-size: cover;
 }
