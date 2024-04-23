@@ -125,11 +125,19 @@ option{
     
 }
 
-
-@media only screen and (min-width: 600px) {
-    .texto-filmes{
-        padding: 20px;
-    }
-    
-
+.perfil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.perfil a {
+    margin: 5px;
+}
+
+/* Estilos para o layout em telas menores */
+@media only screen and (max-width: 600px) {
+    .perfil a {
+        flex: 0 0 50%; /* Duas divs por linha */
+    }
+}   
