@@ -5,8 +5,9 @@
     align-items: center;
     background-color: #151515;
     width: 100%;
-    height: auto;
+    height:922px;
 }
+
 .quem-esta-assistindo{
     display: flex;
     flex-direction: column;
