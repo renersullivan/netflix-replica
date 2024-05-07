@@ -7,7 +7,15 @@
     width: 100%;
     height:922px;
 }
+<<<<<<< HEAD
 
+=======
+.container-perfil img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+>>>>>>> 2fc0d0b (criando post responde)
 .quem-esta-assistindo{
     display: flex;
     flex-direction: column;
@@ -32,6 +40,7 @@
     border:1px solid white;
     width: 250px;
     height: 30px;
+    margin-top: 20px;
     margin-bottom: 250px;
     align-items: center;
     justify-content: center;
