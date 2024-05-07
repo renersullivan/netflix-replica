@@ -1,0 +1,29 @@
+.modal{
+    display: flex;
+    width: 359px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white ;
+}
+.p-modal{
+    color: black;
+}
+.img-netflix{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn-modal-fechar{
+    display: flex;
+    justify-content: center;
+    width: 74px;
+    border-radius: 8px;
+    height: 25px;
+    align-items: center;
+    color: white;
+    background: red;
+    outline: none;
+    border: none;
+}
