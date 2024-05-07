@@ -22,8 +22,8 @@ export class LoginComponent {
     this.http.post('http://localhost:3000/login', data)
       .subscribe(
         (response) => {
-          console.log('Resposta do servidor:', response);
-          // Aqui você pode lidar com a resposta do servidor, como redirecionar para outra página se o login for bem-sucedido
+          console.log('Logado com sucesso !!:', response); 
+            window.location.href = '/perfil'; 
         },
         (error) => {
           console.error('Erro ao fazer login:', error);
