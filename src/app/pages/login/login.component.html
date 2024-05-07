@@ -1,7 +1,7 @@
 <div class="container-login">
     <div class="login">
         <div class="h1"><h1>Entrar</h1></div>
-        <input type="email" placeholder="Email ou numero de telefone">
+        <input type="email" (keyup)="saveEmail($event)"  placeholder="Email ou numero de telefone">
         <input type="password" placeholder="Senha">
         <div class="btn-entar-login" (click)="logar()">Entrar</div>
         <div class="p-ou"><p>ou</p></div>
